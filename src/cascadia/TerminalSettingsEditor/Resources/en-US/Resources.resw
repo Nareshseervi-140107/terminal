@@ -281,6 +281,14 @@
     <value>Automatically detect URLs and make them clickable</value>
     <comment>Header for a control to toggle whether the terminal should automatically detect URLs and make them clickable, or not.</comment>
   </data>
+  <data name="Globals_SearchWebDefaultQueryUrl.Header" xml:space="preserve">
+    <value>Query URL for "Search web" action</value>
+    <comment>Header for a control to set the query URL when using the "search web" action.</comment>
+  </data>
+  <data name="Globals_SearchWebDefaultQueryUrl.HelpText" xml:space="preserve">
+    <value>"%s" is replaced with the selected text.</value>
+    <comment>{Locked="%s"} Additional text presented near "Globals_SearchWebDefaultQueryUrl.Header".</comment>
+  </data>
   <data name="Globals_TrimBlockSelection.Header" xml:space="preserve">
     <value>Remove trailing white-space in rectangular selection</value>
     <comment>Header for a control to toggle whether a text selected with block selection should be trimmed of white spaces when copied to the clipboard, or not.</comment>
@@ -932,15 +940,31 @@
     <value>Line height</value>
     <comment>Header for a control that sets the text line height.</comment>
   </data>
+  <data name="Profile_CellWidth.Header" xml:space="preserve">
+    <value>Cell width</value>
+    <comment>Header for a control that sets the text character width.</comment>
+  </data>
   <data name="Profile_LineHeightBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Line height</value>
     <comment>Header for a control that sets the text line height.</comment>
+  </data>
+  <data name="Profile_CellWidthBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Cell width</value>
+    <comment>Header for a control that sets the text character width.</comment>
   </data>
   <data name="Profile_LineHeight.HelpText" xml:space="preserve">
     <value>Override the line height of the terminal. Measured as a multiple of the font size. The default value depends on your font and is usually around 1.2.</value>
     <comment>A description for what the "line height" setting does. Presented near "Profile_LineHeight".</comment>
   </data>
+  <data name="Profile_CellWidth.HelpText" xml:space="preserve">
+    <value>Override the cell width of the terminal. Measured as a multiple of the font size. The default value depends on your font and is usually around 1.2.</value>
+    <comment>A description for what the "cell width" setting does. Presented near "Profile_CellWidth".</comment>
+  </data>
   <data name="Profile_LineHeightBox.PlaceholderText" xml:space="preserve">
+    <value>1.2</value>
+    <comment>"1.2" is a decimal number.</comment>
+  </data>
+  <data name="Profile_CellWidthBox.PlaceholderText" xml:space="preserve">
     <value>1.2</value>
     <comment>"1.2" is a decimal number.</comment>
   </data>
@@ -1156,9 +1180,17 @@
     <value>Tab title</value>
     <comment>Header for a control to determine the title of the tab. This is represented using a text box.</comment>
   </data>
+  <data name="Profile_AnswerbackMessage.Header" xml:space="preserve">
+    <value>ENQ response</value>
+    <comment>{Locked=ENQ} Header for a control to determine the response to the ENQ escape sequence. This is represented using a text box.</comment>
+  </data>
   <data name="Profile_TabTitle.HelpText" xml:space="preserve">
     <value>Replaces the profile name as the title to pass to the shell on startup.</value>
     <comment>A description for what the "tab title" setting does. Presented near "Profile_TabTitle".</comment>
+  </data>
+  <data name="Profile_AnswerbackMessage.HelpText" xml:space="preserve">
+    <value>The response that is sent when an ENQ control character is received.</value>
+    <comment>{Locked=ENQ} A description for what the "tab title" setting does. Presented near "Profile_TabTitle".</comment>
   </data>
   <data name="Profile_UnfocusedAppearanceTextBlock.Text" xml:space="preserve">
     <value>Unfocused appearance</value>
@@ -1838,5 +1870,21 @@
   <data name="Profile_ProportionalFontFaces.Header" xml:space="preserve">
     <value>Non-monospace fonts:</value>
     <comment>This is a label that is followed by a list of proportional fonts.</comment>
+  </data>
+  <data name="Profile_RainbowSuggestions.Header" xml:space="preserve">
+    <value>Display suggestions UI preview text with rainbow formatting</value>
+    <comment>This is a label for a setting that, when enabled, applies a rainbow coloring to the preview text from the suggestions UI.</comment>
+  </data>
+  <data name="Globals_EnableColorSelection.Header" xml:space="preserve">
+    <value>Experimental: Add key bindings to color selected text</value>
+    <comment>Header for a control to toggle adding a set of key bindings that can be used to apply coloring to selected text in a terminal session.</comment>
+  </data>
+  <data name="Globals_EnableUnfocusedAcrylic.Header" xml:space="preserve">
+    <value>Allow acrylic background in unfocused windows</value>
+    <comment>Header for a control to toggle allowing unfocused windows to have an acrylic background.</comment>
+  </data>
+  <data name="Globals_ShowAdminShield.Header" xml:space="preserve">
+    <value>Display a shield in the title bar for sessions as Admin</value>
+    <comment>Header for a control to toggle displaying a shield in the title bar of the app. "Admin" refers to elevated sessions like "run as Admin"</comment>
   </data>
 </root>
