@@ -245,10 +245,6 @@
     <value>選取應用程式的顯示語言。這將會覆寫您的預設 Windows 介面語言。</value>
     <comment>A description explaining how this control changes the app's language. {Locked="Windows"}</comment>
   </data>
-  <data name="Globals_LanguageDefault" xml:space="preserve">
-    <value>使用系統預設值</value>
-    <comment>The app contains a control allowing users to choose the app's language. If this value is chosen, the language preference list of the system settings is used instead.</comment>
-  </data>
   <data name="Globals_AlwaysShowTabs.Header" xml:space="preserve">
     <value>永遠顯示索引標籤</value>
     <comment>Header for a control to toggle if the app should always show the tabs (similar to a website browser).</comment>

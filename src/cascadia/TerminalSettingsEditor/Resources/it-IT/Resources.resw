@@ -245,10 +245,6 @@
     <value>Seleziona una lingua di visualizzazione per l'applicazione. La lingua di visualizzazione sostituisce quella predefinita dell'interfaccia di Windows.</value>
     <comment>A description explaining how this control changes the app's language. {Locked="Windows"}</comment>
   </data>
-  <data name="Globals_LanguageDefault" xml:space="preserve">
-    <value>Usa impostazioni predefinite di sistema</value>
-    <comment>The app contains a control allowing users to choose the app's language. If this value is chosen, the language preference list of the system settings is used instead.</comment>
-  </data>
   <data name="Globals_AlwaysShowTabs.Header" xml:space="preserve">
     <value>Mostra sempre le schede</value>
     <comment>Header for a control to toggle if the app should always show the tabs (similar to a website browser).</comment>
